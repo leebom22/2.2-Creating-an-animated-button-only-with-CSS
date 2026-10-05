@@ -1,0 +1,18 @@
+.site-button {
+            background-color: purple;
+            color: white;
+            font-size: 150%;
+            margin: 1em;
+            padding: 0.5em;
+        }
+
+.site-button:hover {
+    background-color: white;
+    color: purple;
+    font-size: 180%;
+    /*https://codingbroker.tistory.com/47*/
+}
+
+.site-button:active {
+    transform: rotate(180deg);
+}
