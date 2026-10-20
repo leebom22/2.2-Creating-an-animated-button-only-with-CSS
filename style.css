@@ -6,13 +6,12 @@
             padding: 0.5em;
         }
 
-.site-button:hover {
+.rotating-button:hover {
     background-color: white;
     color: purple;
-    font-size: 180%;
-    /*https://codingbroker.tistory.com/47*/
+    transform: scale(1.2);
 }
 
-.site-button:active {
+.rotating-button:active {
     transform: rotate(180deg);
 }
